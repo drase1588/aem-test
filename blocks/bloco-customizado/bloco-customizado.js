@@ -1,3 +1,3 @@
-document.getElementsByClassName('bloco-customizado').addEventListener('click', function() {
+document.getElementsByClassName('bloco-customizado').onclick = function(){
   alert('texto');
-}, false);
+}
